@@ -1,0 +1,14 @@
+Variant,Slug,Params,BestValAcc,BestEpoch,FinalTestAcc,FinalTestLoss,RuntimeSec
+Base_exact,task2_base_exact,175684,34.36,19,34.36,2.8573,53.51
+DA_v1_light,task2_da_v1_light,175684,36.12,20,36.12,2.5641,91.43
+DA_v2_strong,task2_da_v2_strong,175684,30.48,19,30.48,2.8103,92.86
+Norm_v1_BN,task2_norm_v1_bn,175828,36.78,19,36.79,2.5838,56.69
+Reg_v2_DropL2,task2_reg_v2_dropl2,175684,33.84,20,33.84,2.7644,57.82
+Filt_v1_ks3_more,task2_filt_v1_ks3_more,1093924,39.42,17,39.42,3.1014,61.46
+Filt_v2_ks5_3_more,task2_filt_v2_ks5_3_more,1644036,39.45,16,39.45,3.1714,56.58
+Dep_v1_add_block,task2_dep_v1_add_block,54916,33.62,20,33.61,2.6585,61.49
+Dep_v2_vggish,task2_dep_v2_vggish,56372,39.59,20,39.6,2.3641,63.73
+Res_v1_basic,task2_res_v1_basic,99012,45.23,20,45.23,2.0702,79.87
+Res_v2_bottleneck,task2_res_v2_bottleneck,48964,37.67,20,37.69,2.3783,98.52
+Inc_v1_single,task2_inc_v1_single,40868,33.05,20,33.05,2.5894,74.21
+Inc_v2_double,task2_inc_v2_double,108356,42.26,19,42.26,2.204,105.07
