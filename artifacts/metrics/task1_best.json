@@ -1,0 +1,10 @@
+{
+  "best_epoch": 20,
+  "best_val_accuracy": 0.3539,
+  "final_test_accuracy": 0.3539,
+  "final_test_loss": 2.827675,
+  "total_parameters": 175684,
+  "batch_size": 64,
+  "epochs_run": 20,
+  "runtime_seconds": 62.46
+}
