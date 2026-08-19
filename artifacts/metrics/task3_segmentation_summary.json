@@ -1,0 +1,19 @@
+{
+  "task": "Pascal VOC semantic segmentation",
+  "baseline_validation_miou": 0.5332,
+  "final_validation_miou": 0.6849,
+  "parameter_constraint": "<15M",
+  "architectures_evaluated": [
+    "FCN-style baseline",
+    "Attention + ASPP U-Net",
+    "FPN + ASPP + attention"
+  ],
+  "training_practices": [
+    "staged training with encoder freezing and fine-tuning",
+    "combined focal and Dice loss",
+    "learning-rate reduction on plateau",
+    "early stopping and best-checkpoint restoration",
+    "mean IoU evaluation and qualitative visual inspection"
+  ],
+  "note": "Derived summary of completed coursework experiments. Datasets, checkpoints and raw submissions are intentionally excluded."
+}
